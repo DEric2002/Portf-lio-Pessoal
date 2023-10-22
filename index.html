@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Potfólio Pessoal(Cv online Eric)</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+    </header>
+<!-- Links abaixo se referem a navbar, que ao clicar redireciona-os para o título desejado -->
+    <nav> 
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+<!-- A div-master é ultilizada para centralizar melhor meu codigo e assim facilitar o desenvolvimento -->
+    <div class="div-master"> 
+        <div class="inicio">
+            <h3>
+                Olá, meu nome é Eric Durval!
+            </h3>
+            <p>
+                Essa página é de fundamento acadêmico, onde apresento meu "CV online" e demonstro meus conhecimentos préticos sobre a matéria de APLICAÇÕES WEB E MÓVEIS.
+            </p>
+        </div>
+    
+        <div id="sobre">
+            <h3>
+                Sobre Mim           
+            </h3>
+            <p>
+                Atualmente trabalho com entrega de medicamentos, atendimaneto no balcão e organização, em uma rede de farmácia. Sou estudante de Engenharia de Software, buscando conhecimento no desesenvolvimento Web com Html, Css e JavaScript.Sou apaixonado por tecnologia, desing e tenho experiência considerável com Figma!
+            </p>
+        </div>
+    
+        <div id="formacao">
+            <h3>
+                Formações e Idiomas
+            </h3>
+            <p>
+                Até o momento,  não possuo formações academicas na área de tecnologia. Estou me dedicando no processo de aprendizado em desenvolvimento Web, de forma auto didática.
+            </p>
+            <p>
+                Sou brasileiro nativo e meu idioma principal é português. Também estou em processo de aprendizado da lingua inglesa no qual possuo conhecimentos intermendiarios.
+            </p>
+        </div>
+    
+        <div id="portfolio">
+            <h3>
+                Portfólio
+            </h3>
+            <p>
+                Essa área é dedicada a demonstração de algumas habilidades na prática!
+            </p>
+            <br>
+            <!-- links abaixo remetem a meu portfolio e tambem a meu repositório no github -->
+            <a href="https://ericperfil.netlify.app/" target="_blank" rel="noopener noreferrer">
+                Meu Portfólio Pessoal(em processo de atualizações!)
+            </a>       
+            <a href="https://github.com/DEric2002" target="_blank" rel="noopener noreferrer">
+                Meu Repositório no GitHub
+            </a>
+        </div>
+        
+        <div id="contato">
+            <h3>
+                Entre em contato
+            </h3>
+            <a href="https://www.linkedin.com/in/eric-durval-607666232" target="_blank" rel="noopener noreferrer">
+                Meu LinkedIn
+            </a>
+            <a href="https://www.instagram.com/eric_durval" target="_blank" rel="noopener noreferrer">
+                Meu Instagram
+            </a>
+            <br>
+            <!-- A parte de contato é apenas VISUAL, como diz o requerimento da atividade prática-->
+            <p>Use o formulário abaixo para entrar em contato comigo!</p>
+            <form class="form">
+                <label for="nome">  Seu nome</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Seu e-mail</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Digite uma mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <!-- o botão submit infelizmente não trata esses dados do formulario a lugar nenhum -->
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 Meu Portfólio
+    </footer>
+</body>
+</html>
